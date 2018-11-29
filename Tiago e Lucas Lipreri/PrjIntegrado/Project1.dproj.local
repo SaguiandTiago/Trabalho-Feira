@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/12 14:50:59.000.509,=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/11/12 15:20:08.000.602,C:\Users\tcborella\Documents\PrjIntegrado\UntIntegrado.pas=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/11/12 15:20:08.000.602,C:\Users\tcborella\Documents\PrjIntegrado\UntIntegrado.dfm=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/11/12 15:20:11.000.609,C:\Users\tcborella\Documents\PrjIntegrado\Project1.dproj=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/11/22 13:07:01.000.494,=C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\Unit2.pas</Transaction>
+    <Transaction>2018/11/22 13:10:43.000.654,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\Unit2.dfm=C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntMatematica.dfm</Transaction>
+    <Transaction>2018/11/22 13:10:43.000.654,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\Unit2.pas=C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntMatematica.pas</Transaction>
+    <Transaction>2018/11/22 13:16:50.000.010,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntMatematica.pas=C:\Users\Lucas Lipreri\Music\PrjIntegrado\UntMatematica.pas</Transaction>
+    <Transaction>2018/11/22 13:16:50.000.010,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntMatematica.dfm=C:\Users\Lucas Lipreri\Music\PrjIntegrado\UntMatematica.dfm</Transaction>
+    <Transaction>2018/11/22 13:17:03.000.238,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\Project1.dproj=C:\Users\Lucas Lipreri\Music\PrjIntegrado\Project1.dproj</Transaction>
+    <Transaction>2018/11/22 13:17:16.000.931,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntIntegrado.dfm=C:\Users\Lucas Lipreri\Music\PrjIntegrado\UntIntegrado.dfm</Transaction>
+    <Transaction>2018/11/22 13:17:16.000.931,C:\Users\Lucas Lipreri\Pictures\PrjIntegrado\UntIntegrado.pas=C:\Users\Lucas Lipreri\Music\PrjIntegrado\UntIntegrado.pas</Transaction>
+    <Transaction>2018/11/26 13:56:35.000.801,=C:\Users\tcborella\Pictures\PrjIntegrado\UntQuimica.pas</Transaction>
+    <Transaction>2018/11/28 15:48:00.000.299,=C:\Users\User\Videos\PrjIntegrado\Unit2.pas</Transaction>
+    <Transaction>2018/11/28 15:48:12.000.499,C:\Users\User\Videos\PrjIntegrado\UntFisica.pas=C:\Users\User\Videos\PrjIntegrado\Unit2.pas</Transaction>
+    <Transaction>2018/11/28 15:48:12.000.499,C:\Users\User\Videos\PrjIntegrado\UntFisica.dfm=C:\Users\User\Videos\PrjIntegrado\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/05/17 13:13:09.000.870,=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/17 15:37:57.000.401,C:\Users\tcborella\Documents\8\Unit1.pas=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/17 15:37:57.000.402,C:\Users\tcborella\Documents\8\Unit1.dfm=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/05/17 15:37:59.000.027,C:\Users\tcborella\Documents\8\Project1.dproj=C:\Users\tcborella\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/05/21 15:13:44.000.727,C:\Users\aulacx\Documents\8\Unit1.dfm=C:\Users\aulacx\Documents\TRablaho8\UntT8.dfm</Transaction>
+    <Transaction>2018/05/21 15:13:44.000.727,C:\Users\aulacx\Documents\8\Unit1.pas=C:\Users\aulacx\Documents\TRablaho8\UntT8.pas</Transaction>
+    <Transaction>2018/05/21 15:14:02.000.309,C:\Users\aulacx\Documents\8\Project1.dproj=C:\Users\aulacx\Documents\TRablaho8\PrjT8.dproj</Transaction>
+    <Transaction>2018/06/11 15:09:41.000.017,C:\Users\tcborella\Saved Games\trabalho8\UntT8.dfm=C:\Users\tcborella\Videos\TRablaho8\UntT8.dfm</Transaction>
+    <Transaction>2018/06/11 15:09:41.000.017,C:\Users\tcborella\Saved Games\trabalho8\UntT8.pas=C:\Users\tcborella\Videos\TRablaho8\UntT8.pas</Transaction>
+    <Transaction>2018/06/11 15:09:51.000.665,C:\Users\tcborella\Saved Games\trabalho8\PrjT8.dproj=C:\Users\tcborella\Videos\TRablaho8\PrjT8.dproj</Transaction>
+    <Transaction>2018/08/12 12:16:02.000.544,C:\Users\User\Desktop\trabalho8\UntT8.pas=C:\Users\User\Music\TRabalho8\UntT8.pas</Transaction>
+    <Transaction>2018/08/12 12:16:02.000.544,C:\Users\User\Desktop\trabalho8\UntT8.dfm=C:\Users\User\Music\TRabalho8\UntT8.dfm</Transaction>
+    <Transaction>2018/08/12 12:16:11.000.000,C:\Users\User\Desktop\trabalho8\PrjT8.dproj=C:\Users\User\Music\TRabalho8\PrjT8.dproj</Transaction>
+    <Transaction>2018/08/17 13:54:08.000.815,C:\Users\User\Videos\IntegradoI\UntT8.pas=C:\Users\User\Music\TRabalho8\UntT8.pas</Transaction>
+    <Transaction>2018/08/17 13:54:08.000.815,C:\Users\User\Videos\IntegradoI\UntT8.dfm=C:\Users\User\Music\TRabalho8\UntT8.dfm</Transaction>
+    <Transaction>2018/08/17 13:54:16.000.353,C:\Users\User\Videos\IntegradoI\PrjT8.dproj=C:\Users\User\Music\TRabalho8\PrjT8.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,209 @@
+unit UntQuimica;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TFrmQuimica = class(TForm)
+    Button1: TButton;
+    RadioGroup1: TRadioGroup;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    Panel1: TPanel;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Button2: TButton;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Panel2: TPanel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Edit2: TEdit;
+    Button3: TButton;
+    Panel3: TPanel;
+    Label11: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Edit3: TEdit;
+    Label12: TLabel;
+    Button4: TButton;
+    Panel4: TPanel;
+    Label16: TLabel;
+    Edit4: TEdit;
+    Button5: TButton;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
+    Panel5: TPanel;
+    Edit5: TEdit;
+    Label21: TLabel;
+    Button6: TButton;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Panel6: TPanel;
+    Edit6: TEdit;
+    Label26: TLabel;
+    Button7: TButton;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    Label30: TLabel;
+    RadioGroup2: TRadioGroup;
+    RadioButton4: TRadioButton;
+    RadioButton5: TRadioButton;
+    RadioButton6: TRadioButton;
+    procedure Button2Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure RadioButton1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure RadioButton2Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure RadioButton3Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure Button6Click(Sender: TObject);
+    procedure Button7Click(Sender: TObject);
+    procedure RadioButton4Click(Sender: TObject);
+    procedure RadioButton5Click(Sender: TObject);
+    procedure RadioButton6Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmQuimica: TFrmQuimica;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmQuimica.Button2Click(Sender: TObject);
+var
+  resultado,resultado2: Real;
+begin
+   resultado:= strtofloat(Edit1.TExt) * 1.8 +32;
+   Label4.Caption:=floattostr(resultado);
+   resultado2:= strtofloat(Edit1.Text) + 273;
+   Label5.Caption:= floattostr(resultado2);
+
+end;
+
+procedure TFrmQuimica.Button3Click(Sender: TObject);
+var
+  resultado: Real;
+
+begin
+  resultado:= (strtofloat(Edit2.text)-32) / 1.8;
+  Label9.Caption:=floattostr(resultado);
+  Label10.Caption:=floattostr(resultado + 273);
+end;
+
+procedure TFrmQuimica.Button4Click(Sender: TObject);
+var
+  resultado,resultado2: Real;
+begin
+ resultado := strtofloat(Edit3.Text) -273;
+ Label14.Caption:=floattostr(resultado);
+ resultado2:= resultado * 1.8 +32;
+ Label15.Caption:= floattostr(resultado2);
+
+end;
+
+procedure TFrmQuimica.Button5Click(Sender: TObject);
+var resultado,resultado2 :real;
+begin
+          resultado:= strtofloat(edit4.text)/ 14.50;
+          label19.Caption:=FloatToStr(resultado);
+           resultado2:=StrToFloat(edit4.text)* 6894.76;
+                  label20.Caption:=FloatToStr(resultado2);
+end;
+
+procedure TFrmQuimica.Button6Click(Sender: TObject);
+var resultado,resultado2:real;
+begin
+      resultado:=StrToFloat(Edit5.Text)* 14.50;
+      label24.Caption:=FloatToStr(resultado);
+      resultado2:=StrToFloat(Edit5.Text)* 100000;
+      label25.Caption:=FloatToStr(resultado2);
+end;
+
+procedure TFrmQuimica.Button7Click(Sender: TObject);
+var resultado,resultado2:real;
+begin
+          resultado:=StrToFloat(Edit6.Text)* 1.45;
+      label29.Caption:=FloatToStr(resultado);
+      resultado2:=StrToFloat(Edit6.Text)* 0.00001;
+      label30.Caption:=FloatToStr(resultado2);
+end;
+
+procedure TFrmQuimica.FormCreate(Sender: TObject);
+begin
+Panel1.Visible:=false;
+panel2.Visible:=false  ;
+panel3.Visible:=false;
+Panel6.Visible:=false;
+     Panel5.Visible:=false;
+     Panel4.Visible:=false;
+
+end;
+
+procedure TFrmQuimica.RadioButton1Click(Sender: TObject);
+begin
+  if radiobutton1.Checked then
+  begin
+    Panel1.Visible:=true;
+    panel2.Visible:=false;
+    panel3.Visible:=false;
+  end;
+end;
+
+procedure TFrmQuimica.RadioButton2Click(Sender: TObject);
+begin
+Panel2.Visible:=true;
+panel1.Visible:=false;
+Panel3.Visible:=false;
+end;
+
+procedure TFrmQuimica.RadioButton3Click(Sender: TObject);
+begin
+Panel3.Visible:=true;
+Panel2.Visible:=false;
+Panel1.Visible:=false;
+end;
+
+procedure TFrmQuimica.RadioButton4Click(Sender: TObject);
+begin
+          Panel4.Visible:=true;
+          panel5.Visible:=false;
+          panel6.Visible:=false;
+end;
+
+procedure TFrmQuimica.RadioButton5Click(Sender: TObject);
+begin
+          Panel5.Visible:=true;
+          panel4.Visible:=false;
+          Panel6.Visible:=false;
+end;
+
+procedure TFrmQuimica.RadioButton6Click(Sender: TObject);
+begin
+     Panel6.Visible:=true;
+     Panel5.Visible:=false;
+     Panel4.Visible:=false;
+end;
+
+end.
